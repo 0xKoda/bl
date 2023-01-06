@@ -1,3 +1,5 @@
+<img align="right" width="150" height="150" top="100" src="./PF.png">
+
 # Phishermans Frens
 
 A simple rust CLI to search if a URL is blacklisted as a phishing link.
@@ -9,8 +11,6 @@ git clone https://github.com/0xKoda/bl &&
 cd bl &&
 cargo install --path .
 ```
-
-&nbsp;
 
 ### Usage
 
