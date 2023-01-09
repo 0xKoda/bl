@@ -8,17 +8,16 @@ A simple rust CLI to search if a URL is blacklisted as a phishing link.
 
 ```
 git clone https://github.com/0xKoda/bl &&
-cd bl &&
-cargo install --path .
+cd bl 
 ```
 
 ### Usage
 
 Input a URL, will return GREEN if not on the list, and RED if it appears on the blacklist. 
 
-Works Like a CLI, input `bl` followed by a URL
+Works Like a CLI, without installing to path, run:
 
-Example:  `bl "MetaMask.com"`
+Example:  `cargo run MetaMask.com`
 
 
 ### TODO
